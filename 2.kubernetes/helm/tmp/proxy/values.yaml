@@ -1,0 +1,11 @@
+deployment:
+  replicas: 1
+  image: joaogmartins/proxy
+  resources:
+    requests:
+      cpu: 200m
+      memory: 256Mi
+    limits:
+      cpu: 500m
+      memory: 512Mi
+name: proxy-deploy
