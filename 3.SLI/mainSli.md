@@ -1,5 +1,3 @@
-#Technical Assessment
-
 The main SLIs that guarantee the reliability, performance and scalability are the following.
 
 ###• The latency of requests:
